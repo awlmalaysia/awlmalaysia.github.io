@@ -2,17 +2,20 @@
 <html lang="en">
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"/>
   <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png"/>
   <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png"/>
   <link rel="apple-touch-icon" href="/apple-touch-icon-60x60.png"/>
-  <title>Association of Women Lawyers | Malaysia - training</title>
+  <title>Association of Women Lawyers - training</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"> -->
-    <link rel="stylesheet" href="https://awlmalaysia.github.io/theme/css/mybulma.css?6adb2cca">
-    <link rel="stylesheet" href="https://awlmalaysia.github.io/theme/css/thememod.css?9dea4caf">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+
+  <!--     <link rel="stylesheet" href="https://awlmalaysia.github.io/theme/css/mybulma.css?c7dd02ad">
+ -->
+    <link rel="stylesheet" href="https://awlmalaysia.github.io/theme/css/thememod.css?a6dd9892">
   <style media="print">.is-hidden-print{display:none !important}</style>
 </head>
 
@@ -23,16 +26,14 @@
     <a class="navbar-item pl-5" href="https://awlmalaysia.github.io">
       <img src="https://awlmalaysia.github.io/static/images/icons/awl.svg" width="50" height="36">
     </a>
-    <div class="p-1 navbar-item is-size-3 has-text-weight-normal has-text-primary is-size-5-mobile">
-      Association of Women Lawyers | Malaysia
+    <div class="navbar-item is-size-3-desktop is-size-4-tablet is-size-6-mobile">
+      Association of Women Lawyers
     </div>
-
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
-      <!-- style is a fix for a buggy burger -->
-      <span style="margin-top: 30px;" aria-hidden="true"></span>
-    </a>  
+      <span aria-hidden="true"></span>
+    </a>
   </div>
 
   <div id="navMenu" class="navbar-menu">
@@ -41,21 +42,21 @@
     </div>
 
     <div class="navbar-end">
-      <div class="navbar-item">
-        <a class="navbar-item is-tab" href="https://awlmalaysia.github.io/index.html">
-            HOME
-        </a>
-      </div>
-      <div class="navbar-item">
-        <a class="navbar-item is-tab" href="https://awlmalaysia.github.io/pages/about-us.html">
-            ABOUT US
-        </a>
-      </div>
-      <div class="navbar-item">
-        <a class="navbar-item is-tab" href="https://awlmalaysia.github.io/category/news-events.html">
-            NEWS & EVENTS
-        </a>
-      </div>
+
+      <a class="navbar-item" href="https://awlmalaysia.github.io/index.html">
+          HOME
+      </a>
+
+
+      <a class="navbar-item" href="https://awlmalaysia.github.io/pages/about-us.html">
+          ABOUT US
+      </a>
+
+
+      <a class="navbar-item" href="https://awlmalaysia.github.io/category/news-events.html">
+          NEWS & EVENTS
+      </a>
+
       <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="https://awlmalaysia.github.io/#">
               RESOURCES
@@ -70,7 +71,7 @@
           </div>
       </div>
       <div class="navbar-item">
-        <a class="navbar-item ml-5 button is-primary is-medium " href="https://awlmalaysia.github.io/pages/awl-membership-form.html">
+        <a class="button is-primary is-medium " href="https://awlmalaysia.github.io/pages/awl-membership-form.html">
           JOIN AWL
         </a>
       </div>
@@ -78,6 +79,7 @@
   </div>
 </nav>  
 </header>
+
 
 <div class="container">
   <div class="section columns">
@@ -162,21 +164,6 @@
                   <span class="link-text">Baseline Study on the Working Conditions of Male and Female Lawyers in Kuala Lumpur and&nbsp;Selangor</span>
                 </a></li>
           </ul>
-          <p class="menu-label">Links</p>
-          <ul class="menu-list">
-              <li><a href="https://getpelican.com/">
-                <span class="icon is-small"><i class="fa fa-globe fa-fw"></i></span>
-                <span class="link-text">Pelican</span>
-              </a></li>
-              <li><a href="https://www.python.org/">
-                <span class="icon is-small"><i class="fa fa-globe fa-fw"></i></span>
-                <span class="link-text">Python.org</span>
-              </a></li>
-              <li><a href="https://palletsprojects.com/p/jinja/">
-                <span class="icon is-small"><i class="fa fa-globe fa-fw"></i></span>
-                <span class="link-text">Jinja2</span>
-              </a></li>
-          </ul>
 <p class="menu-label">Social</p>
 <ul class="menu-list">
     <li><a href="https://www.facebook.com/AWLMalaysia/">
@@ -214,6 +201,21 @@
     </div>
   </div>
 </footer>
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+<script>
+    bulmaCarousel.attach('#carousel-demo', {
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        loop: true,
+        pauseOnHover: false,
+
+    });
+
+</script>
+
 
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', () => {
