@@ -10,7 +10,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon-60x60.png"/>
   <title>Top court rules in favour of female ex-employee in Tabung Haji sexual harassment case</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
 
   <!--     <link rel="stylesheet" href="https://awlmalaysia.github.io/theme/css/mybulma.css?c7dd02ad">
@@ -163,19 +163,19 @@
           </ul>
           <p class="menu-label">Tag Cloud</p>
           <ul class="tagcloud tags">
-                <li class="tag tag-3">
-                    <a href="https://awlmalaysia.github.io/tag/sexual-harassment.html">
-                    sexual harassment
-                    </a>
-                </li>
-                <li class="tag tag-3">
-                    <a href="https://awlmalaysia.github.io/tag/homophobia.html">
-                    homophobia
+                <li class="tag tag-1">
+                    <a href="https://awlmalaysia.github.io/tag/gender-equality.html">
+                    gender equality
                     </a>
                 </li>
                 <li class="tag tag-4">
-                    <a href="https://awlmalaysia.github.io/tag/freedom-of-expression.html">
-                    freedom of expression
+                    <a href="https://awlmalaysia.github.io/tag/sexism.html">
+                    sexism
+                    </a>
+                </li>
+                <li class="tag tag-3">
+                    <a href="https://awlmalaysia.github.io/tag/women-and-the-law.html">
+                    women and the law
                     </a>
                 </li>
                 <li class="tag tag-2">
@@ -184,8 +184,33 @@
                     </a>
                 </li>
                 <li class="tag tag-3">
+                    <a href="https://awlmalaysia.github.io/tag/homophobia.html">
+                    homophobia
+                    </a>
+                </li>
+                <li class="tag tag-2">
+                    <a href="https://awlmalaysia.github.io/tag/women-leaders.html">
+                    women leaders
+                    </a>
+                </li>
+                <li class="tag tag-4">
+                    <a href="https://awlmalaysia.github.io/tag/freedom-of-expression.html">
+                    freedom of expression
+                    </a>
+                </li>
+                <li class="tag tag-3">
+                    <a href="https://awlmalaysia.github.io/tag/sexual-harassment.html">
+                    sexual harassment
+                    </a>
+                </li>
+                <li class="tag tag-3">
                     <a href="https://awlmalaysia.github.io/tag/gender-discrimination.html">
                     gender discrimination
+                    </a>
+                </li>
+                <li class="tag tag-3">
+                    <a href="https://awlmalaysia.github.io/tag/moral-policing.html">
+                    moral policing
                     </a>
                 </li>
                 <li class="tag tag-3">
@@ -198,44 +223,19 @@
                     Aiyoh
                     </a>
                 </li>
+                <li class="tag tag-2">
+                    <a href="https://awlmalaysia.github.io/tag/gender-bias.html">
+                    Gender bias
+                    </a>
+                </li>
                 <li class="tag tag-4">
                     <a href="https://awlmalaysia.github.io/tag/misogyny.html">
                     misogyny
                     </a>
                 </li>
                 <li class="tag tag-3">
-                    <a href="https://awlmalaysia.github.io/tag/women-and-the-law.html">
-                    women and the law
-                    </a>
-                </li>
-                <li class="tag tag-2">
-                    <a href="https://awlmalaysia.github.io/tag/gender-bias.html">
-                    Gender bias
-                    </a>
-                </li>
-                <li class="tag tag-2">
-                    <a href="https://awlmalaysia.github.io/tag/women-leaders.html">
-                    women leaders
-                    </a>
-                </li>
-                <li class="tag tag-3">
-                    <a href="https://awlmalaysia.github.io/tag/moral-policing.html">
-                    moral policing
-                    </a>
-                </li>
-                <li class="tag tag-3">
                     <a href="https://awlmalaysia.github.io/tag/lgbt.html">
                     LGBT
-                    </a>
-                </li>
-                <li class="tag tag-1">
-                    <a href="https://awlmalaysia.github.io/tag/gender-equality.html">
-                    gender equality
-                    </a>
-                </li>
-                <li class="tag tag-4">
-                    <a href="https://awlmalaysia.github.io/tag/sexism.html">
-                    sexism
                     </a>
                 </li>
           </ul>
@@ -286,6 +286,10 @@
         slidesToShow: 1,
         loop: true,
         pauseOnHover: false,
+        breakpoints: [
+          { changePoint: 480, slidesToShow: 1, slidesToScroll: 1 }, 
+          { changePoint: 640, slidesToShow: 1, slidesToScroll: 1 }, 
+          { changePoint: 768, slidesToShow: 1, slidesToScroll: 1}]
 
     });
 
@@ -312,6 +316,7 @@
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
+        
 
       });
     });
